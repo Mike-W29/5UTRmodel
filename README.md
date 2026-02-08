@@ -10,3 +10,20 @@ We introduce a multi-scale, multi-view deep learning framework that jointly lear
 
 ### Conclusions
 Our findings highlight the necessity of integrating RNA secondary structure into predictive models. As data resources continue to expand and modeling techniques advance, such integrative frameworks are expected to further deepen our mechanistic understanding of 5′UTR-mediated translational control and provides a robust foundation for variant interpretation and the synthetic design of optimized regulatory elements.
+
+
+## Requirements
+
+### Python Version
+- Python >= 3.8
+
+### Core Dependencies
+
+| Package | Version | Description |
+|---------|---------|-------------|
+| numpy | ~1.24.0 | Numerical computing |
+| pandas | ~2.0.0 | Data manipulation |
+| scikit-learn | ~1.3.0 | Machine learning utilities (train_test_split, scalers) |
+| tensorflow | ~2.13.0 | Deep learning framework (BiLSTM, Attention) |
+| biopython | ~1.81 | Sequence I/O (SeqIO for FASTA files) |
+| joblib | ~1.3.0 | Parallel proces
