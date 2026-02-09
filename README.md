@@ -21,9 +21,11 @@ Our findings highlight the necessity of integrating RNA secondary structure into
 
 | Package | Version | Description |
 |---------|---------|-------------|
-| numpy | ~1.24.0 | Numerical computing |
-| pandas | ~2.0.0 | Data manipulation |
-| scikit-learn | ~1.3.0 | Machine learning utilities (train_test_split, scalers) |
-| tensorflow | ~2.13.0 | Deep learning framework (BiLSTM, Attention) |
-| biopython | ~1.81 | Sequence I/O (SeqIO for FASTA files) |
-| joblib | ~1.3.0 | Parallel proces
+| numpy | ~1.26.4 | Numerical computing |
+| pandas | ~2.2.2 | Data manipulation |
+| scikit-learn | ~1.5.1 | Machine learning utilities (train_test_split, scalers) |
+| tensorflow | ~2.17.0 | Deep learning framework (BiLSTM, Attention) |
+| biopython | ~1.84 | Sequence I/O (SeqIO for FASTA files) |
+| joblib | ~1.4.2 | Parallel proces
+| viennarna | ~2.4.7 | RNAFold
+
