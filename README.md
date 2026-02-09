@@ -29,3 +29,21 @@ Our findings highlight the necessity of integrating RNA secondary structure into
 | joblib | ~1.4.2 | Parallel proces
 | viennarna | ~2.4.7 | RNAFold
 
+
+## Project Structure
+
+The project is organized into the following directories:
+
+```text
+.
+├── GA/                 # Implementation of Genetic Algorithms for 5' UTR optimization
+├── data/               # Datasets used for training and testing
+│   ├── endogenous/     # Example datasets from endogenous (natural) sources
+│   └── synthetic/      # Example datasets from synthetic (library-based) sources
+├── modelling/          # Source code for model construction and training
+│   ├── endogenous/     # Scripts for building the endogenous prediction model
+│   └── synthetic/      # Scripts for building the synthetic prediction model
+└── models/             # Saved model files and pre-processing parameters
+    ├── GA/             # Stored parameters required for data normalization (e.g., scalers)
+    ├── endogenous/     # Pre-trained endogenous models (H5 format)
+    └── synthetic/      # Pre-trained synthetic models (H5 format)
