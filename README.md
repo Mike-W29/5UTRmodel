@@ -38,12 +38,12 @@ The project is organized into the following directories:
 .
 ├── GA/                 # Implementation of Genetic Algorithms for 5' UTR optimization
 ├── data/               # Datasets used for training and testing
-│   ├── endogenous/     # Example datasets from endogenous (natural) sources
-│   └── synthetic/      # Example datasets from synthetic (library-based) sources
+│   ├── endogenous/     # Example datasets from endogenous sources
+│   └── synthetic/      # Example datasets from synthetic sources
 ├── modelling/          # Source code for model construction and training
 │   ├── endogenous/     # Scripts for building the endogenous prediction model
 │   └── synthetic/      # Scripts for building the synthetic prediction model
 └── models/             # Saved model files and pre-processing parameters
-    ├── GA/             # Stored parameters required for data normalization (e.g., scalers)
+    ├── GA/             # Stored parameters required for data normalization (e.g., scalers) (pkl format)
     ├── endogenous/     # Pre-trained endogenous models (H5 format)
     └── synthetic/      # Pre-trained synthetic models (H5 format)
